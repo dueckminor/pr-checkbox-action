@@ -1,0 +1,11 @@
+name: "PR Test Options Commenter"
+description: "Adds a comment to PRs with checkbox options for triggering expensive tests."
+author: "You"
+inputs:
+  github-token:
+    description: "GitHub token"
+    required: true
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
