@@ -10,6 +10,6 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: dueckminor/pr-checkbox-action@v1
+      - uses: ./pr-add-checkbox
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
